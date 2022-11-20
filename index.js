@@ -25,7 +25,7 @@ function getLocationInfo(e) {
       }
     })
     .then((data) => {
-      //   Show location info
+      // Show location info
       let output = "";
       data.places.forEach((place) => {
         output += `
